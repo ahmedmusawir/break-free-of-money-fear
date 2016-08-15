@@ -40,7 +40,7 @@ $leisa-green: #5f9217;
 html { 
  	font-family: 'Raleway', sans-serif;
 
-	background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-1-bg.jpg") no-repeat center center fixed;
+	background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-main-2.jpg") no-repeat center center fixed;
 
 	  -webkit-background-size: cover;
 
@@ -54,7 +54,7 @@ html {
 	// border: 1px solid blue;
 
 	@media ( max-width: 1024px ) {
-		background: url('http://www.leisapeterson.com/wp-content/uploads/2016/07/block-1-bg-mobile.jpg');
+		background: url('http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-mobile.jpg');
 	}
 
 }
@@ -62,37 +62,58 @@ html {
 body {
 	display: none;
 
-	@include background(linear-gradient( rgba( white, .15 ), rgba( lighten( $leisa-orange, 15% ), .3) ) left repeat);
+	background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-main-2.jpg") no-repeat center center fixed;
+
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;
+
+	@media ( max-width: 1024px ) {
+		background: url('http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-mobile.jpg');
+	}
+	// @include background(linear-gradient( rgba( white, .15 ), rgba( lighten( $leisa-orange, 15% ), .3) ) left repeat);
 	// margin-bottom: 2rem !important;
-	border: 1px solid lighten( $leisa-orange, 30% );
+	// border: 1px solid lighten( $leisa-orange, 30% );
 }
 
 header {
 	border: 1rem solid $leisa-green;
-	background: url('http://www.leisapeterson.com/wp-content/uploads/2016/08/blk-6-bg-mobile-400x400.jpg');
+	background-color: rgba( $smoke, .75 );
+	box-shadow: 1px 1px 100px lighten( $steel, 20% );
+
+	// background-color: rgba( $leisa-green, .75 );
+
+	// background: url('http://www.leisapeterson.com/wp-content/uploads/2016/08/blk-6-bg-mobile-400x400.jpg');
 }
 
 .top-header-txt {
 	h1 {
 		font-weight: 700;
 		color: darken( $leisa-green, 5% );
+		// color: white;
 		padding-top: 3rem;
 		font-variant: small-caps;
 	}
 	h2 {
 		font-style: italic;
 		color: darken( $leisa-green, 0% );
+		// color: white;
 	}
 }
 
 .middle-content-block {
 	// border: .3rem solid $leisa-orange;
 	box-shadow: 1px 1px 100px lighten( $steel, 20% );
-	background: url('http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg') fixed;
+	// background: url('http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg') fixed;
+	background-color: rgba( white, .2 );
 	margin-top: 4rem;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
-	color: gray;
+	color: darken( gray, 10% );
 
 	.img-block {
 		padding-top: 5rem;
@@ -111,7 +132,7 @@ header {
 
 		}
 		h4 {
-			font-size: 2.5rem;
+			font-size: 3rem;
 			padding-top: 3rem;
 
 		}
@@ -123,59 +144,12 @@ header {
 	}
 }
 
-// .quote-block {
-// 	// border: 1rem solid yellow;
-// 	margin-top: 5rem;
-// 	background-color: lighten( rgba( black, .7 ), 25% );
-// 	padding: 7rem;
-
-// 	@media ( max-width: 450px ) {
-// 		padding-left: 1rem;
-// 		padding-right: 1rem;
-// 	}
-
-// 	blockquote {
-// 		border-left: 0;
-// 	}
-// 	.text-block {
-
-// 		i {
-// 			font-size: 6rem;
-// 			color: lighten( grey, 25% );
-// 		}
-// 		p {
-// 			color: lighten( grey, 35% );
-// 			font-size: 2.3rem;
-// 			font-style: italic;
-
-// 			cite {
-// 				display: block;
-// 				padding-top: 3rem;
-// 				font-size: 2rem;
-// 				font-style: bold;
-// 			}
-// 		}
-
-// 		@media ( max-width: 450px ) {
-
-// 			i {
-// 				padding-bottom: 2rem;
-// 			}
-
-// 			p {
-// 				cite {
-// 					padding-bottom: 3rem;
-// 				}
-// 			}
-
-// 		}
-// 	}
-// }
-
-
 .bottom-form-block {
-	border: 1rem solid lighten( $leisa-green, 0% );
-	background: rgba( $leisa-green, .15 );
+
+	box-shadow: 2px 2px 100px lighten( $steel, 20% );
+
+	border: 3px solid lighten( $leisa-green, 0% );
+	background: rgba( $smoke, .1 );
 	margin-top: 5rem;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
@@ -192,6 +166,7 @@ header {
 	}
 
 	.form-block {
+
 		.input-group-addon {
 			i {
 				font-size: 4rem;

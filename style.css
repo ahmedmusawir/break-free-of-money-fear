@@ -5925,24 +5925,30 @@ button.close {
     display: none !important; } }
 html {
   font-family: 'Raleway', sans-serif;
-  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-1-bg.jpg") no-repeat center center fixed;
+  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-main-2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
   @media (max-width: 1024px) {
     html {
-      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/block-1-bg-mobile.jpg"); } }
+      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-mobile.jpg"); } }
 
 body {
   display: none;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.15), rgba(244, 192, 102, 0.3)) left repeat;
-  background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(244, 192, 102, 0.3)) left repeat;
-  border: 1px solid #f9deae; }
+  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-main-2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  @media (max-width: 1024px) {
+    body {
+      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-mobile.jpg"); } }
 
 header {
   border: 1rem solid #5f9217;
-  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/blk-6-bg-mobile-400x400.jpg"); }
+  background-color: rgba(238, 238, 238, 0.75);
+  box-shadow: 1px 1px 100px #999999; }
 
 .top-header-txt h1 {
   font-weight: 700;
@@ -5955,11 +5961,11 @@ header {
 
 .middle-content-block {
   box-shadow: 1px 1px 100px #999999;
-  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg") fixed;
+  background-color: rgba(255, 255, 255, 0.2);
   margin-top: 4rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: gray; }
+  color: #676767; }
   .middle-content-block .img-block {
     padding-top: 5rem; }
   .middle-content-block .text-block {
@@ -5967,7 +5973,7 @@ header {
     .middle-content-block .text-block h2 {
       font-size: 3.5rem; }
     .middle-content-block .text-block h4 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       padding-top: 3rem; }
   .middle-content-block .bottom-text {
     text-align: center;
@@ -5975,8 +5981,9 @@ header {
     font-style: italic; }
 
 .bottom-form-block {
-  border: 1rem solid #5f9217;
-  background: rgba(95, 146, 23, 0.15);
+  box-shadow: 2px 2px 100px #999999;
+  border: 3px solid #5f9217;
+  background: rgba(238, 238, 238, 0.1);
   margin-top: 5rem;
   padding-top: 5rem;
   padding-bottom: 5rem; }
