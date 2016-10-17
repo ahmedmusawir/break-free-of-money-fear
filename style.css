@@ -5925,107 +5925,148 @@ button.close {
     display: none !important; } }
 html {
   font-family: 'Raleway', sans-serif;
-  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-main-2.jpg") no-repeat center center fixed;
+  background: url("http://www.wealthclinic.com/wp-content/uploads/2016/10/meditation-freebie-bg-light.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
   @media (max-width: 1024px) {
     html {
-      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-mobile.jpg"); } }
+      background: url("http://www.wealthclinic.com/wp-content/uploads/2016/10/meditation-freebie-bg-MOBILE.jpg"); } }
 
 body {
   display: none;
-  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-main-2.jpg") no-repeat center center fixed;
+  background: url("http://www.wealthclinic.com/wp-content/uploads/2016/10/meditation-freebie-bg-light.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
   @media (max-width: 1024px) {
     body {
-      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-mobile.jpg"); } }
+      background: url("http://www.wealthclinic.com/wp-content/uploads/2016/10/meditation-freebie-bg-MOBILE.jpg"); } }
 
 header {
-  border: 1rem solid #5f9217;
-  background-color: rgba(238, 238, 238, 0.75);
+  border: 1rem solid #fefbf5;
+  background-color: rgba(238, 238, 238, 0.3);
   box-shadow: 1px 1px 100px #999999; }
 
 .top-header-txt h1 {
-  font-weight: 700;
-  color: #517c14;
+  font-weight: 300;
+  font-size: 4rem;
+  color: #e49710;
   padding-top: 3rem;
   font-variant: small-caps; }
 .top-header-txt h2 {
   font-style: italic;
-  color: #5f9217; }
+  color: #efa31f; }
 
 .middle-content-block {
   box-shadow: 1px 1px 100px #999999;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
   margin-top: 4rem;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
-  color: #676767; }
+  color: #cc870f; }
   .middle-content-block .img-block {
     padding-top: 5rem; }
+    .middle-content-block .img-block img {
+      width: 65%; }
   .middle-content-block .text-block {
     padding: 2rem; }
     .middle-content-block .text-block h2 {
-      font-size: 3.5rem; }
-    .middle-content-block .text-block h4 {
-      font-size: 3rem;
-      padding-top: 3rem; }
+      font-size: 4.5rem; }
+    .middle-content-block .text-block h3 {
+      font-size: 3.5rem;
+      padding-top: 3rem;
+      font-variant: small-caps;
+      font-weight: 300; }
   .middle-content-block .bottom-text {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic; }
+
+.middle-praise-block {
+  box-shadow: 1px 1px 100px #999999;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #9d680b; }
+  .middle-praise-block .img-block {
+    padding-top: 5rem; }
+    .middle-praise-block .img-block img {
+      width: 65%; }
+  .middle-praise-block .text-block {
+    padding: 2rem; }
+    .middle-praise-block .text-block h2 {
+      font-size: 3.5rem;
+      opacity: .6; }
+    .middle-praise-block .text-block h4 {
+      font-size: 2rem;
+      padding-top: 2rem;
+      font-weight: 300;
+      font-style: italic; }
+      .middle-praise-block .text-block h4 i {
+        font-size: 6rem;
+        opacity: .3; }
+  .middle-praise-block .bottom-text {
     text-align: center;
     font-size: 2rem;
     font-style: italic; }
 
 .bottom-form-block {
   box-shadow: 2px 2px 100px #999999;
-  border: 3px solid #5f9217;
-  background: rgba(238, 238, 238, 0.1);
+  border: 0.6rem solid #fefbf5;
+  background: rgba(238, 238, 238, 0.4);
   margin-top: 5rem;
   padding-top: 5rem;
   padding-bottom: 5rem; }
   .bottom-form-block h2 {
     text-align: center;
-    color: #426610; }
+    color: #e49710;
+    font-weight: 400;
+    font-size: 4rem;
+    padding-top: 8rem;
+    padding-right: 3rem; }
   .bottom-form-block h3 {
     text-align: center;
-    color: #5f9217;
+    color: #efa31f;
     padding-top: 5rem;
     padding-bottom: 2rem; }
+  @media (max-width: 760px) {
+    .bottom-form-block img {
+      width: 100%; } }
   .bottom-form-block .form-block .input-group-addon i {
     font-size: 4rem; }
   .bottom-form-block .form-block input[type="text"] {
     height: 6rem;
     background-color: transparent;
-    border: 4px solid #5f9217;
+    border: 4px solid #efa31f;
     font-size: 2rem; }
   .bottom-form-block .form-block input[type="email"] {
     height: 6rem;
     background-color: transparent;
-    border: 4px solid #5f9217;
+    border: 4px solid #efa31f;
     font-size: 2rem; }
-  .bottom-form-block .form-block .btn.btn-success {
+  .bottom-form-block .form-block .btn.btn-warning {
     padding-top: 2rem;
     padding-bottom: 2rem; }
   .bottom-form-block .form-block ::-webkit-input-placeholder {
-    color: #5f9217;
+    color: #efa31f;
     text-align: center;
     font-size: 2rem; }
   .bottom-form-block .form-block :-moz-placeholder {
     /* Firefox 18- */
-    color: #5f9217;
+    color: #efa31f;
     text-align: center;
     font-size: 2rem; }
   .bottom-form-block .form-block ::-moz-placeholder {
     /* Firefox 19+ */
-    color: #5f9217;
+    color: #efa31f;
     text-align: center;
     font-size: 2rem; }
   .bottom-form-block .form-block :-ms-input-placeholder {
-    color: #5f9217;
+    color: #efa31f;
     text-align: center;
     font-size: 2rem; }
 

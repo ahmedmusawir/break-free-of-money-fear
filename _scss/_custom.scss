@@ -40,7 +40,8 @@ $leisa-green: #5f9217;
 html { 
  	font-family: 'Raleway', sans-serif;
 
-	background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-main-2.jpg") no-repeat center center fixed;
+	background: url("http://www.wealthclinic.com/wp-content/uploads/2016/10/meditation-freebie-bg-light.jpg") no-repeat center center fixed;
+	// background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-main-2.jpg") no-repeat center center fixed;
 
 	  -webkit-background-size: cover;
 
@@ -54,7 +55,8 @@ html {
 	// border: 1px solid blue;
 
 	@media ( max-width: 1024px ) {
-		background: url('http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-mobile.jpg');
+		background: url('http://www.wealthclinic.com/wp-content/uploads/2016/10/meditation-freebie-bg-MOBILE.jpg');
+		// background: url('http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-mobile.jpg');
 	}
 
 }
@@ -62,7 +64,8 @@ html {
 body {
 	display: none;
 
-	background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-main-2.jpg") no-repeat center center fixed;
+	background: url("http://www.wealthclinic.com/wp-content/uploads/2016/10/meditation-freebie-bg-light.jpg") no-repeat center center fixed;
+	// background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-main-2.jpg") no-repeat center center fixed;
 
 	  -webkit-background-size: cover;
 
@@ -73,7 +76,8 @@ body {
 	  background-size: cover;
 
 	@media ( max-width: 1024px ) {
-		background: url('http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-mobile.jpg');
+		background: url('http://www.wealthclinic.com/wp-content/uploads/2016/10/meditation-freebie-bg-MOBILE.jpg');
+		// background: url('http://www.leisapeterson.com/wp-content/uploads/2016/08/bg-mobile.jpg');
 	}
 	// @include background(linear-gradient( rgba( white, .15 ), rgba( lighten( $leisa-orange, 15% ), .3) ) left repeat);
 	// margin-bottom: 2rem !important;
@@ -81,8 +85,9 @@ body {
 }
 
 header {
-	border: 1rem solid $leisa-green;
-	background-color: rgba( $smoke, .75 );
+	border: 1rem solid lighten( $leisa-orange, 45% );
+	// border: 1rem solid darken( $leisa-orange, 5% );
+	background-color: rgba( $smoke, .3 );
 	box-shadow: 1px 1px 100px lighten( $steel, 20% );
 
 	// background-color: rgba( $leisa-green, .75 );
@@ -92,15 +97,16 @@ header {
 
 .top-header-txt {
 	h1 {
-		font-weight: 700;
-		color: darken( $leisa-green, 5% );
+		font-weight: 300;
+		font-size: 4rem;
+		color: darken( $leisa-orange, 5% );
 		// color: white;
 		padding-top: 3rem;
 		font-variant: small-caps;
 	}
 	h2 {
 		font-style: italic;
-		color: darken( $leisa-green, 0% );
+		color: darken( $leisa-orange, 0% );
 		// color: white;
 	}
 }
@@ -109,32 +115,34 @@ header {
 	// border: .3rem solid $leisa-orange;
 	box-shadow: 1px 1px 100px lighten( $steel, 20% );
 	// background: url('http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg') fixed;
-	background-color: rgba( white, .2 );
+	background-color: rgba( white, .4 );
 	margin-top: 4rem;
-	padding-top: 3rem;
+	padding-top: 2rem;
 	padding-bottom: 3rem;
-	color: darken( gray, 10% );
+	color: darken( $leisa-orange, 10% );
+	// color: darken( gray, 10% );
 
 	.img-block {
 		padding-top: 5rem;
 
 		img {
-			// width: 65%;
+			width: 65%;
 		}
 	}
 	.text-block {
 		padding: 2rem;
+		// padding-top: 5rem;
 		// margin-top: 8rem;	
 
 		h2 {
-			font-size: 3.5rem;
-			// font-variant: small-caps;
+			font-size: 4.5rem;
 
 		}
-		h4 {
-			font-size: 3rem;
+		h3 {
+			font-size: 3.5rem;
 			padding-top: 3rem;
-
+			font-variant: small-caps;
+			font-weight: 300;
 		}
 	}
 	.bottom-text {
@@ -144,25 +152,83 @@ header {
 	}
 }
 
+.middle-praise-block {
+	// border: .6rem solid lighten( $leisa-orange, 45% );
+	box-shadow: 1px 1px 100px lighten( $steel, 20% );
+	// background: url('http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg') fixed;
+	background-color: rgba( white, .4 );
+	margin-top: 4rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color: darken( $leisa-orange, 20% );
+	// color: darken( gray, 10% );
+
+	.img-block {
+		padding-top: 5rem;
+
+		img {
+			width: 65%;
+		}
+	}
+	.text-block {
+		padding: 2rem;
+		// padding-top: 5rem;
+		// margin-top: 8rem;	
+
+		h2 {
+			font-size: 3.5rem;
+			opacity: .6;
+			// font-variant: small-caps;
+
+		}
+		h4 {
+			font-size: 2rem;
+			padding-top: 2rem;
+			font-weight: 300;
+			font-style: italic;
+
+			i {
+				font-size: 6rem;
+				opacity: .3;
+			}
+		}
+	}
+	.bottom-text {
+		text-align: center;
+		font-size: 2rem;
+		font-style: italic;
+	}
+}
 .bottom-form-block {
 
 	box-shadow: 2px 2px 100px lighten( $steel, 20% );
+	border: .6rem solid lighten( $leisa-orange, 45% );
 
-	border: 3px solid lighten( $leisa-green, 0% );
-	background: rgba( $smoke, .1 );
+	// border: 3px solid lighten( $leisa-orange, 0% );
+	background: rgba( $smoke, .4 );
 	margin-top: 5rem;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 
 	h2 {
 		text-align: center;
-		color: darken( $leisa-green, 10% );
+		color: darken( $leisa-orange, 5% );
+		font-weight: 400;
+		font-size: 4rem;
+		padding-top: 8rem;
+		padding-right: 3rem;
 	}
 	h3 {
 		text-align: center;
-		color: $leisa-green;
+		color: $leisa-orange;
 		padding-top: 5rem;
 		padding-bottom: 2rem;
+	}
+
+	img {
+		@media ( max-width: 760px ) {
+			width: 100%;
+		}
 	}
 
 	.form-block {
@@ -175,40 +241,40 @@ header {
 		input[type="text"] {
 			height: 6rem;
 			background-color: transparent;
-			border: 4px solid $leisa-green;
+			border: 4px solid $leisa-orange;
 			font-size: 2rem;
 		}
 		input[type="email"] {
 			height: 6rem;
 			background-color: transparent;
-			border: 4px solid $leisa-green;
+			border: 4px solid $leisa-orange;
 			font-size: 2rem;
 		}
 
-		.btn.btn-success {
+		.btn.btn-warning {
 			padding-top: 2rem;
 			padding-bottom: 2rem;
 		}
 		::-webkit-input-placeholder {
-		   color: $leisa-green;
+		   color: $leisa-orange;
 		   text-align: center;
 		   font-size: 2rem;
 		}
 
 		:-moz-placeholder { /* Firefox 18- */
-		   color: $leisa-green;
+		   color: $leisa-orange;
 		   text-align: center;
 		   font-size: 2rem;  
 		}
 
 		::-moz-placeholder {  /* Firefox 19+ */
-		   color: $leisa-green;
+		   color: $leisa-orange;
 		   text-align: center;
 		   font-size: 2rem;  
 		}
 
 		:-ms-input-placeholder {  
-		   color: $leisa-green;
+		   color: $leisa-orange;
 		   text-align: center;
 		   font-size: 2rem;  
 		}		
